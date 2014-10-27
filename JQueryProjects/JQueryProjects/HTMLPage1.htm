@@ -1,0 +1,90 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Basic HTML Projects Page.</title>
+        <script type ="text/javascript" src ="http://code.jquery.com/jquery-2.1.0.min.js">
+        </script>
+        <script>
+//            $(document).ready(function () {
+//                $('div').click(function () {
+//                    $(this).hide();
+//                });
+//            });
+
+//            $(document).ready(function () {
+//                $('div p').click(function () {
+//                    $(this).html("click this click this");
+//                });
+//  });
+//            $(document).ready(function () {
+//                $("div,p").click(function () {
+//                    $(this).css("background-color", "green");
+//                });
+//            });
+
+//            $('document').ready(function () {
+//                $('div').click(function () {
+//                    $('div').each(function () {
+//                        alert($(this).html());
+//                    });
+//                });
+            //            });
+
+//            $(document).ready(function(){
+//            $('#pthis').click(function(){
+//            alert($(this).length);
+//            });
+//            });
+
+//            $(document).ready(function () {
+//                $('#pthis,#divthis').click(function () {
+//                    $(this).html("how dooooooo");
+//                });
+//            });
+
+//            $(document).ready(function () {
+//                $('.classp,.divclass,#pdiv.meghaclass,a.aclass').click(function () {
+//                    var count = $(this).length;
+//                    alert("Total contents length " + count);
+//                });
+//            });
+
+            // selecting based on attribute values.
+//            $(document).ready(function () {
+//                $("input[value='Submit']").click(function()
+//                {
+//                       $('#pthis').html("You submitted this page Thank you Bala!");
+//                });
+//               });
+//               $(document).ready(function () {
+//                   $("input[value]").click(function () {
+//                       $('#pthis').html("You submitted this page Thank you Bala!");
+//                   });
+//               });
+
+            $(document).ready(function () {
+                $(':button').click(function () {
+                    alert('hi');
+                });
+            });
+
+        </script>
+	</head>
+	<body>
+	    <div id ="divthis" class ="divclass">
+            <h1>Hey this is Bala</h1>
+            <p> How are u? how is life</p>
+        </div>
+        <button id ="btnGo">Go</button>
+        <input type ="checkbox" />
+                <div id ="pdiv" class ="meghaclass">
+        so sweettttttttttttttttttttttttttttt.
+        </div>
+        <a href ="http://www.google.com" class ="aclass">Google Search!</a>
+        <p class ="classp" id ="pthis">
+        hey hellow are   
+        </p>
+        <input type ="button" value ="Submit" />
+	
+    <input type ="button" value ="Cancel" /></body>
+</html>

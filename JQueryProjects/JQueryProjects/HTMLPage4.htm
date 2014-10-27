@@ -1,0 +1,48 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+    <style type="text/css">
+        .color1
+        {
+            background-color:Lime;
+        }
+    </style>
+		<title></title>
+             <script type ="text/javascript" src ="http://code.jquery.com/jquery-2.1.0.min.js">
+            </script>
+            <script>
+//                $(document).ready(function () {
+
+//                    $('#txtUserId').addClass("color1");
+//                });
+                function gotfocus() {
+                    $('#txtUserId').toggleClass("color1");
+                }
+            </script>
+	</head>
+	<body>
+	<table>
+        <tr>
+            <td>
+                 <label id ="lblUserId">User Id</label>
+            </td>
+            <td>
+                 <input type ="text" id ="txtUserId" onfocus =gotfocus() />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id ="lblPassword">Password</label>
+            </td>
+            <td>
+                <input type ="password" id ="txtPassword" />
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <input type ="submit"  id ="btnSubmit" value="Submit"/>
+        </td>    
+        </tr>
+    </table>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+         <script type ="text/javascript" src ="http://code.jquery.com/jquery-2.1.0.min.js">
+        </script>
+        <script>
+//            $(document).ready(function () {
+//                    $('table tr').each(function () {
+//                        $(this).css("background-color", "blue");
+
+//                });
+//            });
+
+//            $(document).ready(function () {
+//                $('div').ready(function () {
+//                    var temp = $('div:contains("oracle")');
+//                    alert(temp.length);
+//                });
+//            });
+
+//            $(document).ready(function () {
+//                $('table').each(function () {
+//                    $('tr:even').css("background-color", "green");
+//                });
+//            });
+
+//            $(document).ready(function () {
+//                alert($('span:first-child').html());
+            //            });
+
+            $(document).ready(function () {
+                $('input[value *="Submit"]').click(function () {
+                    alert('hi');
+                });
+            });
+        </script>
+	</head>
+	<body>
+    <span>
+    first 1
+    </span>
+    <span>
+    first 2
+    </span>
+<span>
+    first 3
+    </span>
+    <input id ="btnSubmit" value ="Submit" type ="button" />
+    <input id ="btnSubmit" value ="PreSubmit" type ="button" />
+     <input id ="btnCancel" value ="Cancel" type ="button" />
+    <div>
+        temperature 
+    </div>
+	<table>
+       <tr>
+            <td>
+            S.No
+            </td>
+            <td>
+            Subject
+            </td>
+            <td>
+            Marks
+            </td>
+        </tr>
+        <tr>
+            <td>
+            1
+            </td>
+            <td>
+            Science
+            </td>
+            <td>
+            100%
+            </td>
+        </tr>
+           <tr>
+            <td>
+            2
+            </td>
+            <td>
+            Maths
+            </td>
+            <td>
+            100%
+            </td>
+        </tr>
+           <tr>
+            <td>
+            3
+            </td>
+            <td>
+            Social
+            </td>
+            <td>
+            100%
+            </td>
+        </tr>
+    </table>
+	</body>
+</html>
